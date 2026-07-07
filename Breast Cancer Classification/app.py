@@ -14,8 +14,15 @@ st.set_page_config(
 # ----------------------------
 # Load Model and Scaler
 # ----------------------------
-model = pickle.load(open("model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+# model = pickle.load(open("model.pkl", "rb"))
+# scaler = pickle.load(open("scaler.pkl", "rb"))
+from pathlib import Path
+import pickle
+
+BASE_DIR = Path(__file__).parent
+
+model = pickle.load(open(BASE_DIR / "model.pkl", "rb"))
+scaler = pickle.load(open(BASE_DIR / "scaler.pkl", "rb"))
 
 # ----------------------------
 # Custom CSS
