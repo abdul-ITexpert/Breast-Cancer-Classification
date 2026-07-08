@@ -4,6 +4,16 @@
 
 This project aims to classify breast cancer tumors as **Benign** or **Malignant** using machine learning techniques. The workflow includes data preprocessing, outlier detection, feature selection, feature scaling, model training, and performance evaluation. Multiple classification algorithms were tested and compared to identify the best-performing model.
 
+## 🎥 Demo Video
+
+[▶ Watch the Demo](https://github.com/user-attachments/assets/f3b01155-95e2-4d21-8904-7f7ec2208a2c)
+
+## 🌐 Live Demo
+
+🔗 **Try the Application Here:**
+
+https://breast-cancer-classification-pre.streamlit.app
+
 ## Dataset Preprocessing
 
 - Loaded and explored the Breast Cancer dataset.
