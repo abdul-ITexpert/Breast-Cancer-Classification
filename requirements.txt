@@ -3,6 +3,4 @@ numpy
 matplotlib
 seaborn
 streamlit
-pickle
 scikit-learn
-jupyter
